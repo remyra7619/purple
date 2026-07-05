@@ -43,8 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         gitLink.style.textShadow = '';
       }, 400);
 
-      alert('✨ Репозиторий NeonNews\nhttps://github.com/your-username/neon-news\n(замените ссылку на свою)');
-      // window.open('https://github.com/your-username/neon-news', '_blank');
+      alert('✨ Репозиторий NeonNews\nhttps://remyra7619.github.io/purple/ddglady/index.html\n(замените ссылку на свою)')
     });
   }
 
