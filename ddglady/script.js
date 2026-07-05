@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 400);
 
       // Открываем GitHub (заглушка — можно заменить на реальный URL)
-      const repoUrl = 'https://github.com/your-username/your-repo'; // <-- замените на свой URL
+      const repoUrl = 'https://remyra7619.github.io/purple/ddglady/index.html'; // <-- замените на свой URL
       // Для демонстрации показываем уведомление, что репозиторий готов
       alert(`✨ Репозиторий готов!\nПерейдите по ссылке:\n${repoUrl}\n(замените URL на свой)`);
       // window.open(repoUrl, '_blank'); // раскомментируйте, когда укажете реальную ссылку
