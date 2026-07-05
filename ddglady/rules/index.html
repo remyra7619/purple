@@ -1,0 +1,143 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeonServer · Правила и вход</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="neon-server-wrapper">
+    <!-- Шапка -->
+    <header class="hero">
+      <h1>🎮 NeonServer</h1>
+      <p>✦ правила и вход в неоновом мире ✦</p>
+    </header>
+
+    <!-- Навигация по разделам -->
+    <nav class="section-nav">
+      <button class="nav-btn active" data-section="rules">📋 Правила</button>
+      <button class="nav-btn" data-section="howto">🚀 Как зайти</button>
+    </nav>
+
+    <!-- Раздел 1: Правила -->
+    <section class="content-section" id="section-rules">
+      <div class="rules-grid">
+        <div class="rule-card">
+          <span class="rule-icon">⚡</span>
+          <h3>1. Уважение к игрокам</h3>
+          <p>Запрещены оскорбления, токсичность и дискриминация. Мы ценим дружелюбную атмосферу.</p>
+        </div>
+        <div class="rule-card">
+          <span class="rule-icon">🔒</span>
+          <h3>2. Запрет на читы</h3>
+          <p>Использование стороннего ПО, дающего преимущество, строго запрещено. Бан без предупреждения.</p>
+        </div>
+        <div class="rule-card">
+          <span class="rule-icon">🏗️</span>
+          <h3>3. Сохранение построек</h3>
+          <p>Не разрушайте чужие постройки без разрешения. За нарушения — восстановление или бан.</p>
+        </div>
+        <div class="rule-card">
+          <span class="rule-icon">💬</span>
+          <h3>4. Чат-этикет</h3>
+          <p>Не флудите, не спамьте, не рекламируйте другие серверы. Используйте русский или английский.</p>
+        </div>
+        <div class="rule-card">
+          <span class="rule-icon">🎮</span>
+          <h3>5. Игровой процесс</h3>
+          <p>Не мешайте другим игрокам строить, добывать ресурсы и проходить квесты.</p>
+        </div>
+        <div class="rule-card">
+          <span class="rule-icon">👑</span>
+          <h3>6. Администрация</h3>
+          <p>Решения администрации обязательны к исполнению. Спорные вопросы решаются в тикетах.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Раздел 2: Как зайти -->
+    <section class="content-section hidden" id="section-howto">
+      <div class="howto-container">
+        <!-- Видео-вставка -->
+        <div class="video-wrapper">
+          <div class="video-container">
+            <iframe 
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=0&mute=1" 
+              title="Как зайти на сервер"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <p class="video-caption">🎥 Туториал: как подключиться к серверу</p>
+        </div>
+
+        <!-- Инструкция -->
+        <div class="howto-steps">
+          <h2>📌 Пошаговая инструкция</h2>
+          <div class="step">
+            <span class="step-number">1</span>
+            <div class="step-content">
+              <h3>Откройте Minecraft</h3>
+              <p>Запустите launcher и выберите версию 1.20.1 forge.</p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="step-number">2</span>
+            <div class="step-content">
+              <h3>Нажмите "Сетевая игра"</h3>
+              <p>В главном меню выберите раздел "Сетевая игра".</p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="step-number">3</span>
+            <div class="step-content">
+              <h3>Добавьте сервер</h3>
+              <p>Нажмите "Добавить сервер" и введите данные:</p>
+              <div class="server-info">
+                <div class="info-row">
+                  <span class="info-label">Название:</span>
+                  <span class="info-value">PURPLE-GLADY</span>
+                </div>
+                <div class="info-row"></div><span class="info-label">IP-адрес:</span>
+                  <span class="info-value neon-text"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="step">
+            <span class="step-number">4</span>
+            <div class="step-content">
+              <h3>Подключитесь</h3>
+              <p>Выберите добавленный сервер и нажмите "Подключиться". Готово!</p>
+            </div>
+          </div>
+          <div class="step bonus">
+            <span class="step-number">⭐</span>
+            <div class="step-content">
+              <h3>Скачайте моды </h3>
+              <a href="https://drive.google.com/drive/folders/1wiYmAJFjEc6p26DT3vJd2_g_at96t9vE?usp=sharing"><p>Для игры требуется установить наш пак модов.</p></a>
+              <a href="https://drive.google.com/drive/folders/1wiYmAJFjEc6p26DT3vJd2_g_at96t9vE?usp=sharing" class="btn-download">📥 Скачать моды</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+      <span>💜 2026 · NeonServer</span>
+      <span>
+        <a href="#" class="git-link" id="githubServer">
+          <span>🐙На главную</span>
+        </a>
+      </span>
+      <span>#фиолетовыйнеон #сервер</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

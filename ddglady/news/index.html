@@ -1,0 +1,127 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeonNews · Фиолетовые новости</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="neon-news-wrapper">
+    <!-- Шапка -->
+    <header class="hero">
+      <h1>📰 NeonNews</h1>
+      <p>✦ новости в неоновом свете ✦</p>
+    </header>
+
+    <!-- Навигация по категориям -->
+    <nav class="category-nav">
+      <button class="cat-btn active" data-category="all">Все</button>
+      <button class="cat-btn" data-category="spoil">Сплетни</button>
+      <button class="cat-btn" data-category="update">Обновления</button>
+      <button class="cat-btn" data-category="think">Рассуждения</button>
+    </nav>
+
+    <!-- Лента новостей -->
+    <section class="news-feed" id="newsFeed">
+      <!-- Новость 1 - Обновления -->
+      <article class="news-card update" data-category="update">
+        <div class="news-media">
+          <video controls poster="https://picsum.photos/id/1067/600/350">
+            <source src="img_mp4/1073370.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="news-content">
+          <span class="news-badge update">Обновления</span>
+          <h2>Выход сервера в релиз Патч 1.0</h2>
+          <p>Разработчики представили долгожданное обновление старого сервера, с более требовательного сервера в менее требовательного.</p>
+          <div class="news-meta">
+            <span>📅 5 июля 2026</span>
+            <span>👁️ 0</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Новость 2 - Рассуждения -->
+      <article class="news-card think" data-category="think">
+        <div class="news-media">
+          <img src="img_mp4/Supra a80.png" alt="Рассуждение" />
+        </div>
+        <div class="news-content">
+          <span class="news-badge think">Рассуждения</span>
+          <h2>Вы не знаете где купить машину на сервере?</h2>
+          <p>Тогда вам желательно посмотреть на донат!!! 
+             </p>
+          <div class="news-meta">
+            <span>📅 5 июля 2026</span>
+            <span>👁️ 0</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Новость 3 - Сплетни -->
+      <article class="news-card spoil" data-category="spoil">
+        <div class="news-media">
+          <img src="https://picsum.photos/id/1044/600/350" alt="Сплетня 2" />
+        </div>
+        <div class="news-content">
+          <span class="news-badge spoil">Сплетни</span>
+          <h2>скоро</h2>
+          <p>скоро</p>
+          <div class="news-meta">
+            <span>📅 скоро</span>
+            <span>👁️ скоро</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Новость 4 - Обновления -->
+      <article class="news-card update" data-category="update">
+        <div class="news-media">
+          <iframe src="mp4" allowfullscreen></iframe>
+        </div>
+        <div class="news-content">
+          <span class="news-badge update">Обновления</span>
+          <h2>скоро</h2>
+          <p>скоро</p>
+          <div class="news-meta">
+            <span>📅 скоро</span>
+            <span>👁️ скоро</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Новость 5 - Рассуждения -->
+      <article class="news-card think" data-category="think">
+        <div class="news-media">
+          <img src="https://picsum.photos/id/1049/600/350" alt="Рассуждение 2" />
+        </div>
+        <div class="news-content">
+          <span class="news-badge think">Рассуждения</span>
+          <h2>скоро</h2>
+          <p>скоро</p>
+          <div class="news-meta">
+            <span>📅 скоро</span>
+            <span>👁️ скоро</span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+      <span>💜 2026 · NeonNews</span>
+      <span>
+        <a href="#" class="git-link" id="githubNews">
+          <span>🐙</span> На главную
+        </a>
+      </span>
+      <span>#фиолетовыйнеон #новости</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
